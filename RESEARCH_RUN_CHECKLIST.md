@@ -9,4 +9,3 @@
 7. Archive the two frozen data CSVs, two provenance JSON files and all result CSV/JSON files together.
 8. Do not mix the archived 24-run ETF-only results with the new 30-run experiment.
 9. Update Chapter 5 of the report with measured AAPL/MSFT/NVDA results only after the frozen extension run completes.
-10. Replace the public-repository placeholder before final submission.
