@@ -94,7 +94,7 @@ python reproduce_research.py
 
 ## Important result-version note
 
-The supplied `results/archived_12_etf_core/` directory contains the earlier completed **24-run ETF-only experiment**. It is retained for audit history only. It must not be presented as the new 15-asset result.
+The supplied `results/archived_12_etf_core/` directory contains the earlier completed **24-run ETF-only experiment**. It is retained for audit history only.
 
 Once AAPL, MSFT and NVDA have been frozen on a connected machine, `python reproduce_research.py --refresh-data` regenerates the root `results/` files for the full 30-run experiment.
 
