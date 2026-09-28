@@ -1,0 +1,20 @@
+{
+  "source": "AAPL/MSFT/NVDA Yahoo Finance adjusted closes downloaded through yfinance and frozen by FinAdvisor",
+  "source_urls": {
+    "AAPL": "https://finance.yahoo.com/quote/AAPL/history/",
+    "MSFT": "https://finance.yahoo.com/quote/MSFT/history/",
+    "NVDA": "https://finance.yahoo.com/quote/NVDA/history/"
+  },
+  "cache_path": "data/verified_equity_adjclose.csv",
+  "sha256": "3cf14ba2a1e39856b4edfa3094bd11d6e924b2c742365b7b90ccf3146a1d5075",
+  "first_date": "2004-01-02",
+  "last_date": "2026-08-11",
+  "rows": 5687,
+  "columns": 4,
+  "assets": [
+    "AAPL",
+    "MSFT",
+    "NVDA"
+  ],
+  "integrity_checks": "clipped to ETF panel coverage; sorted unique dates; positive finite adjusted closes; >=500 observations; no >50% one-day split artefacts; coverage near ETF end date"
+}

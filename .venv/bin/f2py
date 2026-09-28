@@ -1,0 +1,8 @@
+#!/bin/sh
+'''exec' "/Users/zack/Desktop/SIM UOL Computer Science/8. April 2026 Semester/1. FYP/Final Submission/v7/FinAdvisor_AI_v3_15Asset_ResultsIntegrated/.venv/bin/python" "$0" "$@"
+' '''
+import sys
+from numpy.f2py.f2py2e import main
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(main())

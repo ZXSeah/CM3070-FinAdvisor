@@ -1,0 +1,11 @@
+{
+  "source": "manisahni/marketdata verified ETF adjusted-close mirror (yfinance cache)",
+  "source_url": "https://raw.githubusercontent.com/manisahni/marketdata/main/daily_adjclose.csv",
+  "cache_path": "data/verified_daily_adjclose.csv",
+  "sha256": "361efb287116fc8200582c15fcd315bcce2e218fa1e50b416bacc5acebff37b9",
+  "first_date": "2004-01-02",
+  "last_date": "2026-08-11",
+  "rows": 5688,
+  "columns": 28,
+  "integrity_checks": "VIX published checks; SPY worst day/COVID drawdown; 2023 trading-day count; NYSE holiday exclusion"
+}

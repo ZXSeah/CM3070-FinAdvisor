@@ -1,0 +1,28 @@
+{
+  "successful_runs": 24,
+  "requested_runs": 24,
+  "assets": [
+    "SPY",
+    "QQQ",
+    "IWM",
+    "EFA",
+    "EEM",
+    "VNQ",
+    "GLD",
+    "DBC",
+    "IEF",
+    "TLT",
+    "LQD",
+    "HYG"
+  ],
+  "models": [
+    "Random Forest",
+    "Logistic Regression"
+  ],
+  "data_sha256": "361efb287116fc8200582c15fcd315bcce2e218fa1e50b416bacc5acebff37b9",
+  "data_first_date": "2004-01-02",
+  "data_last_date": "2026-08-11",
+  "mean_accuracy": 0.49970207694926794,
+  "mean_dynamic_minus_buy_hold_cagr": -0.07264355681861463,
+  "dynamic_lower_drawdown_fraction": 1.0
+}
